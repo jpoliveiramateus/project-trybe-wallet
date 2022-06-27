@@ -1,0 +1,31 @@
+.wallet-header {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #BAB4D6;
+  color: white;
+}
+
+.wallet-img {
+  width: 6rem;
+}
+
+.wallet-info {
+  display: flex;
+  align-self: center;
+
+  gap: 1rem;
+  margin-right: 2rem;
+}
+
+.wallet-user {
+  display: flex;
+  
+  gap: 0.3rem;
+}
+
+.wallet-money {
+  display: flex;
+
+  gap: 0.2rem;
+}

@@ -1,0 +1,16 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #BAB4D6;
+  color: white;
+}
+
+.not-found h1 {
+  font-size: 10rem;
+}

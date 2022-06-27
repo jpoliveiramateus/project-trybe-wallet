@@ -1,0 +1,27 @@
+.login-failed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  gap: 2rem;
+
+  background-color: #BAB4D6;
+  color: white;
+}
+
+.login-failed h3 {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pagelogin-btn {
+  text-decoration: none;
+
+  background-color: #4E3D89;
+  color: white;
+
+  border-radius: 5px;
+  padding: 8px;
+}

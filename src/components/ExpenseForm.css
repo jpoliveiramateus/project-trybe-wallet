@@ -1,0 +1,42 @@
+.wallet-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+  height: 4.5rem;
+
+  background-color: #AA98D4;
+  color: white;
+}
+
+#value-input, #description-input, #wallet-button {
+  width: 10rem;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #BAB4D6;
+}
+
+#value-input, #description-input {
+  padding-left: 0.3rem;
+}
+
+#currencies, #method-input, #tag-input {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #BAB4D6;
+}
+
+#wallet-button {
+  cursor: pointer;
+}
+
+#wallet-button:disabled {
+  cursor: auto;
+}

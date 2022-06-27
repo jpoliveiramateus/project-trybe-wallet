@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  font-family: sans-serif;
+
+  height: 100vh;
+  width: auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  width: 50%;
+  height: 100vh;
+  gap: 1rem;
+
+  background-color: white;
+  color: #A48FD2;
+
+  border-radius: 10px;
+}
+
+.login-form input, .login-form button {
+  width: 18rem;
+  height: 2rem;
+
+  font-style: italic;
+  
+  border: none;
+  border-radius: 30px 20px;
+  border: 1px solid #BAB4D6;
+}
+
+.login-form input {
+  padding-left: 15px;
+
+  font-style: italic;
+  font-size: 0.9rem;
+
+  color: #A48FD2;
+}
+
+.login-form input:-webkit-autofill {
+  box-shadow: 0 0 0 30px #a38ed11c inset;
+}
+
+.login-form input:-webkit-autofill {
+  -webkit-text-fill-color: #A48FD2;
+}
+
+/* https://pt.stackoverflow.com/questions/256541/alterar-o-background-do-input-preenchido-pelo-autocomplete-do-chrome */
+
+.login-form input::placeholder {
+  color: #9E88D0;
+}
+
+.login-form input:focus {
+  outline: 0;
+}
+
+.login-form input:focus-within {
+  border: 2px solid #BAB4D6;
+}
+
+.login-form button {
+  color: white;
+  background-color: #9a82cf;
+
+  text-transform: uppercase;
+  font-size: 0.8rem;
+
+  cursor: pointer;
+}
+
+.login-form button:disabled {
+  background-color: #a38ed1a1;
+  cursor: auto;
+}
+
+.login-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #BAB4D6;
+  
+  width: 50%;
+  height: 100vh;
+}
+
+.login-img img {
+  width: 25rem;
+  height: 25rem;
+}
