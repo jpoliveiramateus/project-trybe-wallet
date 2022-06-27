@@ -8,6 +8,8 @@ Uma carteira digital de controle de gastos com conversor de moedas, através des
 
 ### Disponível apenas na versão Desktop!
 
+Aplicação: https://trybe-wallet-bay.vercel.app/
+
 ![Screenshot from 2022-06-27 17-27-08](https://user-images.githubusercontent.com/99822908/176030620-936c73d7-4e28-4ea7-94c2-8c5e22fd93f6.png)
 ![Screenshot from 2022-06-27 17-29-49](https://user-images.githubusercontent.com/99822908/176040854-95298338-e8ed-4ff2-a535-2759f3d786ff.png)
 
