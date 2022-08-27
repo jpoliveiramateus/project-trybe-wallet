@@ -15,7 +15,7 @@ Aplicação: https://trybe-wallet-bay.vercel.app/
 
 # 📄 Sobre
 
-Projeto desenvolvido por _[João Pedro de Oliveira Mateus](https://www.linkedin.com/in/jo%C3%A3o-pedro-de-oliveira-mateus-81b137187/)_ foi utilizado React, React Router e Redux para controlar o estado global da aplicação, foi consumida uma API pública de Cotações de Moedas para realizar a conversão.
+Projeto desenvolvido por _[João Pedro de Oliveira Mateus](https://www.linkedin.com/in/jpoliveira7/)_ foi utilizado React, React Router e Redux para controlar o estado global da aplicação, foi consumida uma API pública de Cotações de Moedas para realizar a conversão.
 
 Documentação da API utilizada: https://docs.awesomeapi.com.br/api-de-moedas
 
